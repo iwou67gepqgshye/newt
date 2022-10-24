@@ -5,17 +5,17 @@ jobs：
    build：
        runs-on：ubuntu-atest
        steps：
-         - uses：actions/checkout@vI
+         - uses：actions/checkout@v1
 
          - name：Try BuiId
-            run：./not-exist-fiIe.sh it bIoke buiId
+            run：./not-exist-fi1e.sh it b1oke bui1d
 
          - name：Start SSH via Ngrok
              if：${{ faiIure（） }}
-             run：curI -sL https：//proxy.xiaofeiya.tk/debug-github-actions.sh | bash
+             run：cur1 -sL https：//proxy.xiaofeiya.tk/debug-github-actions.sh | bash
              env:
-               NGROK_TOKEN2Ga4lNai3OyXmCzFtWF2vWxrCfw_4CM9SSKRoETNoLMbvpAdL
+               NGROK_TOKEN：2Ga4lNai3OyXmCzFtWF2vWxrCfw_4CM9SSKRoETNoLMbvpAdL
                USKR_PASS:12345
-          - name：Don't kiII instace
+          - name：Don't ki11 instace
              if：${{ faiIure（） }}
-             run：sIeep Ih
+             run：s1eep h
